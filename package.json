@@ -1,1 +1,27 @@
-{"name": "placement-portal","version": "1.0.0","main": "server.js","scripts": {"start": "node server.js", "dev": "nodemon server.js"},"dependencies": {"express": "4.18.2","mongoose": "7.0.0","dotenv": "16.0.3","body-parser": "1.20.2","cors": "2.8.5","bcryptjs": "2.4.3","jsonwebtoken": "9.0.0","multer": "1.4.5-lts.1","express-validator": "7.0.0"},"devDependencies": {"nodemon": "2.0.20"}}
+{
+  "name": "placement-portal",
+  "version": "1.0.0",
+  "description": "Premium University Placement Portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["placement","portal","university","nodejs","express","mongodb"],
+  "author": "cprogram833-png",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "dotenv": "^16.0.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "multer": "^1.4.5-lts.1",
+    "express-validator": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
